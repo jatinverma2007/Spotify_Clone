@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+                                            <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>Spotify</h2>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-search"></i> Search</li>
+                <li><i class="fas fa-book"></i> Your Library</li>
+            </ul>
+            <div class="playlists">
+                <h3>PLAYLISTS</h3>
+                <ul>
+                    <li>Create Playlist</li>
+                    <li>Liked Songs</li>
+                    <li>Daily Mix 1</li>
+                    <li>Chill Vibes</li>
+                    <li>Workout Playlist</li>
+                </ul>
+            </div>
+        </nav>
+
+                                                 <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <div class="header-buttons">
+                    <button class="nav-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="nav-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="user-menu">
+                    <button class="profile-btn">
+                        <i class="fas fa-user"></i>
+                        John Doe
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+            </header>
+
+            <section class="featured">
+                <h1>Good afternoon</h1>
+                <div class="featured-grid">
+                    <div class="featured-item">
+                        <img src="images/images1.jpeg" alt="Liked Songs">
+                        <span>Liked Songs</span>
+                    </div>
+                    <div class="featured-item">
+                        <img src="images/image2.jpeg" alt="Peaceful Piano">
+                        <span>Peaceful Piano</span>
+                    </div>
+                    <div class="featured-item">
+                        <img src="images/image3.jpeg" alt="Today's Top Hits">
+                        <span>Today's Top Hits</span>
+                    </div>
+                    <div class="featured-item">
+                        <img src="images/image4.jpeg" alt="RapCaviar">
+                        <span>RapCaviar</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recently-played">
+                <h2>Recently played</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="images/image5.jpeg" alt="Midnights">
+                        <h4>Midnights</h4>
+                        <p>Taylor Swift</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/spotify-IMAGE.jpg" alt="Un Verano Sin Ti">
+                        <h4>Un Verano Sin Ti</h4>
+                        <p>Bad Bunny</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image6.jpeg" alt="Harry's House">
+                        <h4>Harry's House</h4>
+                        <p>Harry Styles</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image7.jpeg" alt="Renaissance">
+                        <h4>Renaissance</h4>
+                        <p>Beyoncé</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recently-played">
+                <h2>Made For You</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="images/image8.jpeg" alt="Daily Mix 1">
+                        <h4>Daily Mix 1</h4>
+                        <p>Customized for you</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image9.jpeg" alt="Discover Weekly">
+                        <h4>Discover Weekly</h4>
+                        <p>New music for you</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image10.jpeg" alt="Release Radar">
+                        <h4>Release Radar</h4>
+                        <p>Latest releases</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image11.jpeg" alt="Your Time Capsule">
+                        <h4>Your Time Capsule</h4>
+                        <p>Throwback favorites</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+                                        <!-- Playing Bar -->
+        <footer class="now-playing">
+            <div class="track-info">
+                <img src="images/image12.jpeg" alt="Current Track">
+                <div class="track-details">
+                    <h4>Anti-Hero</h4>
+                    <p>Taylor Swift</p>
+                </div>
+                <button class="like-btn"><i class="far fa-heart"></i></button>
+            </div>
+            <div class="player-controls">
+                <div class="control-buttons">
+                    <button><i class="fas fa-shuffle"></i></button>
+                    <button><i class="fas fa-step-backward"></i></button>
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                    <button><i class="fas fa-step-forward"></i></button>
+                    <button><i class="fas fa-repeat"></i></button>
+                </div>
+                <div class="progress-bar">
+                    <span>0:00</span>
+                    <div class="progress">
+                        <div class="progress-filled"></div>
+                    </div>
+                    <span>3:21</span>
+                </div>
+            </div>
+            <div class="volume-controls">
+                <button><i class="fas fa-volume-up"></i></button>
+                <div class="volume-bar">
+                    <div class="volume-filled"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
